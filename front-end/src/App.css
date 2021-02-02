@@ -1,0 +1,39 @@
+.ant-card-bordered .ant-card-cover{
+    overflow: hidden;
+    max-height: 212px;
+}
+
+.loading{
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.REJECTED{
+    color: red;
+}
+
+.CREATED{
+    color:blue
+}
+
+.PAYED{
+    color: green;
+}
+
+.ant-divider-inner-text > button{
+    margin-right: 1em;
+}
+
+.det{
+    display: flex;
+}
+
+.det .detText{
+    display: flex;
+    flex-direction: column;
+    place-content: flex-start;
+}
